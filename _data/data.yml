@@ -1,0 +1,235 @@
+basic:
+  name: Foo Bar                     # name
+  title: Backend Developer           # job title
+  avatar:
+    show: true                       # show or hide avatar
+    path: /assets/images/profile.png # avatar file path
+
+contact:
+  # meta
+  location: Viet Nam # location
+  email: me@example.com    # email address
+  phone: +86-111-2222-3333 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  website: example.com     # site URL without schema, like example.com, will automatically prepand "https://"
+
+  gender:                  # gender or pronoun
+  birthday:                # birthday
+  nationality:             # nationality
+  visa:                    # passport visa
+  drivinglicense:          # driving licence
+
+  # contact
+  wechat:                  # username
+  whatsapp:                # 8611122223333     | https://wa.me/8611122223333
+  telegram:                # username          | https://t.me/username
+  messenger:               # username          | https://m.me/username
+  line:                    # lineid            | https://line.me/R/ti/p/@lineid
+  viber:                   # username          | https://vb.me/username
+  threema:                 # userid            | https://threema.id/userid
+
+  # programmer
+  github:                  # username          | https://github.com/username
+  gitlab:                  # username          | https://gitlab.com/username
+  bitbucket:               # username          | https://bitbucket.com/username
+  stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
+  leetcode:                # username          | https://leetcode.com/username
+  codeforces:              # username          | https://codeforces.com/profile/username
+  codewars:                # username          | https://www.codewars.com/users/username
+  codepen:                 # username          | https://codepen.io/username
+  tryhackme:               # username          | https://tryhackme.com/p/username
+
+  # academic
+  googlescholar:           # username          | https://scholar.google.com/citations?user=username
+  researchgate:            # username          | https://www.researchgate.net/profile/username
+  kaggle:                  # username          | https://www.kaggle.com/username
+  orcid:                   # id                | https://orcid.org/id
+  figshare:                # name/id           | https://figshare.com/authors/name/id
+
+  # writer
+  devto:                   # username          | https://dev.to/username
+  medium:                  # username          | https://medium.com/@username
+  wordpress:               # username          | https://username.wordpress.com
+  blogger:                 # username          | https://username.blogspot.com
+  wikipedia:               # username          | https://www.wikipedia.org/wiki/User:username
+
+  # designer
+  figma:                   # username          | https://www.figma.com/@username
+  behance:                 # username          | https://www.behance.net/username
+  dribble:                 # username          | https://dribbble.com/username
+  artstation:              # username          | https://www.artstation.com/username
+
+  # other cv
+  linkedin:                # username          | https://linkedin.com/in/username
+  indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
+  xing:                    # username          | https://www.xing.com/profile/username
+  fiverr:                  # username          | https://www.fiverr.com/username
+  freelancer:              # username          | https://www.freelancer.com/u/username
+
+  # social media
+  twitter:                 # username          | https://twitter.com/username
+  mastodon:                # username@server
+  instagram:               # username          | https://instagram.com/username
+  unsplash:                # username          | https://unsplash.com/@username
+  _500px:                  # username          | https://500px.com/p/username
+  youtube:                 # username          | https://www.youtube.com/@username
+  tiktok:                  # username          | https://www.tiktok.com/@username
+  quora:                   # username          | https://www.quora.com/profile/username
+  zhihu:                   # username          | https://www.zhihu.com/people/username
+  goodreads:               # username          | https://www.goodreads.com/user/show/username
+  strava:                  # useid             | https://www.strava.com/athletes/userid
+
+profile:
+  show: true
+  order: 1
+  title: Profile
+  description: |
+    The profile section in a resume is a brief summary of the applicant's skills, qualifications, and experience. 
+experience:
+  show: true
+  order: 2
+  title: Experiences
+  description: |
+    The experiences section in a resume is a section where you list your previous work experiences and accomplishments.
+  items:
+    - company: Second Company
+      link: '#'
+      tags: Full-time
+      date: 2018.03 - 2019.03
+      role: Backend Developer
+      location: Viet Nam
+      description: |
+        Your key responsibilities and achievements in the company.
+        + First
+        + Second
+
+    - company: First Company
+      link:
+      tags: Part-time, remote
+      date: 2017.03 - 2018.03
+      role: Backend Developer
+      location: Viet Nam
+      description: |
+        Your key responsibilities and achievements in the company.
+        + First
+        + Second
+
+project:
+  show: true
+  order: 3
+  title: Projects
+  description: |
+    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. 
+  items:
+    - name: Personal project
+      link: '#'
+      tags:
+      date: 2015 - 2017
+      description: |
+        Personal project description...
+        + First
+        + Second
+
+    - name: OSS project
+      link:
+      tags: committer
+      date:
+      description: |
+        OSS project description...
+        + First
+        + Second
+
+skill:
+  show: true
+  order: 4
+  title: Skills
+  description: |
+    The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
+  items:
+    - name: Skill A
+      level: 5
+    - name: Skill B
+      level: 4
+    - name: Skill C
+      level: 3
+    - name: Skill D
+      level: 4
+  groups:
+    - name: Group A Skills
+      item:
+        - Skill A
+        - Skill B
+        - Skill C
+        - Skill D
+    - name: Group B Skills
+      item:
+        - Skill E
+        - Skill F
+        - Skill G
+    - name: Group C Skills
+      item:
+        - Skill H
+        - Skill I
+
+education:
+  show: true
+  order: 5
+  title: Education
+  description: |
+    The education section in a resume is where you provide information about your academic background
+  items:
+    - institution: Example University
+      link: '#'
+      date: 2015 - 2018
+      major: Machine Learning
+      degree: Master
+      description: |
+        Additional information for this institution.
+        + First
+        + Second
+
+certificate:
+  show: false
+  order: 6
+  title: Certificates
+  description: |
+    The certificate section in a resume is a dedicated section where you can showcase any certificates that you have earned.
+  items:
+    - name: Example Certificate One
+      issuer: by Example
+      date: 2020
+      link: '#'
+      description: |
+        It's my Example Certificate One by Example.
+
+award:
+  show: true
+  order: 8
+  title: Awards
+  description: |
+    The award section in a resume is a dedicated section where you can showcase any awards you have received. 
+  items:
+    - name: Example Awared One
+      awarder: by Example
+      date: 2022
+      link: '#'
+      description: |
+        It's my Example Awared One by Example.
+
+reference:
+  show: false
+  order: 14
+  title: References
+  description: |
+    A reference section in a resume is a list of individuals who can vouch for your skills, work ethic, and character. 
+  items:
+    - name: Foo One
+      link: '#'
+      title: Backend Developer
+      institution: Second Company
+      address: 1234 Example St, XXX, XY 11111
+      email: foo.one@example.com
+      phone: 111-222-333
+      description: |
+        Foo One was my colleague in Second Company.
+
+close: <strong>Sorry, my resume has been hidden.</strong>
