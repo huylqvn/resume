@@ -143,32 +143,23 @@ skill:
   order: 4
   title: Skills
   description: |
-    The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
-  items:
-    - name: Skill A
-      level: 5
-    - name: Skill B
-      level: 4
-    - name: Skill C
-      level: 3
-    - name: Skill D
-      level: 4
+    The skills section in a resume is a dedicated section where you can list out the various skills
   groups:
-    - name: Group A Skills
+    - name: Programming
       item:
-        - Skill A
-        - Skill B
-        - Skill C
-        - Skill D
-    - name: Group B Skills
+        - Go
+        - Java
+        - Python
+        - JavaScript
+    - name: Database
       item:
-        - Skill E
-        - Skill F
-        - Skill G
-    - name: Group C Skills
+        - Mysql
+        - Postgres
+        - Oracle
+    - name: Other
       item:
-        - Skill H
-        - Skill I
+        - Skill 1
+        - Skill 2
 
 education:
   show: true
