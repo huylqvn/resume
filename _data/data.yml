@@ -98,8 +98,7 @@ experience:
       role: Senior Software Engineer
       location: Viet Nam
       description: |
-        Zalora - an e-commerce company based in Singapore, I work in the OMS team, providing warehouse management solutions, participate design and support in warehouse process
-        + Optimize php profiler using APM server
+        Zalora - an e-commerce company based in Singapore, I work in the OMS team, providing warehouse management solutions
         + Technologies: PHP, MySQL, RabbitMQ, Memcached, ...
 
     - company: TrueID
@@ -110,7 +109,6 @@ experience:
       location: Viet Nam
       description: |
         TrueID - eKYC solution for Financial System (ACB, Zalopay, Dragon Capital, VinaCapital, etc.), using machine learning technology to verify customers, risk management
-        + Integrate model serving (AI) into backend service, implement face-search, vector-search, text-search engine
         + Technologies: Go, Spring Boot, Vngcloud, Oracle, PostgresSQL, MariaDB, Milvus, Redis, ...
     
     - company: BeGroup JSC
@@ -121,7 +119,6 @@ experience:
       location: Viet Nam
       description: |
         BE App - transportation, mobile payments, loyalty program, food delivery, logistics and lifestyle on-demand services.
-        + Develop features for corporate services and payment services.
         + Technologies: Go, NodeJS, Google Cloud, Redis, MySQL, ...
     
     - company: Zalopay
@@ -249,23 +246,26 @@ award:
   description: |
     Some awards I have received during my career and study.
   items:
-    - name: APEC Certification for Honors Program of computer science & engineering
+    - name: APEC Certificates
       awarder: APEC
       date: 2018
       link: '#'
       description: |
+        APEC Certification for Honors Program of computer science & engineering
 
-    - name: 3rd Prize Hackathon (2017), 2nd prize in Provincial Math Competition (2011, 2012), 3rd prize in Provincial Youth Programming Contest (2011)
-      awarder: 
+    - name: Competition
+      awarder:
       date: 2011 - 2017
       link: '#'
       description: |
+        3rd Prize Hackathon (2017), 2nd prize in Provincial Math Competition (2011, 2012), 3rd prize in Provincial Youth Programming Contest (2011)
 
-    - name: Scholarships for students with excellent academic achievements
+    - name: Scholarships 
       awarder: 
       date: 2013 - 2018
       link: '#'
       description: |
+        Scholarships for students with excellent academic achievements
 
 reference:
   show: false
