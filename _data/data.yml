@@ -83,13 +83,13 @@ profile:
   order: 1
   title: Overview
   description: | 
-    I have experience in building large systems, familiar with microservices, CI/CD, cloud platform. Additionally, I possess a solid understanding of databases, networking, operating systems, machine learning, blockchain, and product development. My expertise extends to asynchronous execution, dis- tributed transactions, and message queues. I’m self-motivated thinking, responsible, fast learner and passionate about computer programming.
+    I have experience in building large systems, familiar with microservices, CI/CD, cloud platform. 
 experience:
   show: true
   order: 2
   title: Experiences
   description: |
-    I'm Huy Le, with more than 7 years' experience software engineer, I have worked with dev team in Vietnam, Singapore, Japan, France, US Company.
+    With more than 7 years' experience software engineer, I have worked with dev team in Vietnam, Singapore, Japan, France, US Company.
   items:
     - company: Zalora.com
       link: 'zalora.com'
@@ -136,7 +136,7 @@ project:
   order: 3
   title: Projects
   description: |
-    I have participated in a few projects as a freelancer, collaborator or founding engineer, I have also created a few of my own products as follows 
+    I have participated in a few projects as a freelancer, collaborator or founding engineer, I have also created a few of my own products
   items:
     - name: BotCK
       link: 'botck.io.vn'
