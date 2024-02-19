@@ -1,16 +1,16 @@
 basic:
-  name: Foo Bar                     # name
-  title: Backend Developer           # job title
+  name: Huy Le                     # name
+  title: Software Engineer           # job title
   avatar:
     show: true                       # show or hide avatar
-    path: /assets/images/profile.png # avatar file path
+    path: /assets/images/profile.jpg # avatar file path
 
 contact:
   # meta
   location: Viet Nam # location
-  email: me@example.com    # email address
-  phone: +86-111-2222-3333 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: example.com     # site URL without schema, like example.com, will automatically prepand "https://"
+  email: lequochuy930@gmail.com    # email address
+  phone: +84-973-xxxx-41 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  website: huylqvn.com     # site URL without schema, like example.com, will automatically prepand "https://"
 
   gender:                  # gender or pronoun
   birthday:                # birthday
@@ -81,69 +81,121 @@ contact:
 profile:
   show: true
   order: 1
-  title: Profile
-  description: |
-    The profile section in a resume is a brief summary of the applicant's skills, qualifications, and experience. 
+  title: Overview
+  description: | 
+    I have experience in building large systems, familiar with microservices, CI/CD, cloud platform. Additionally, I possess a solid understanding of databases, networking, operating systems, machine learning, blockchain, and product development. My expertise extends to asynchronous execution, dis- tributed transactions, and message queues. I’m self-motivated thinking, responsible, fast learner and passionate about computer programming.
 experience:
   show: true
   order: 2
   title: Experiences
   description: |
-    The experiences section in a resume is a section where you list your previous work experiences and accomplishments.
+    I'm Huy Le, with more than 7 years' experience software engineer, I have worked with dev team in Vietnam, Singapore, Japan, France, US Company.
   items:
-    - company: Second Company
-      link: '#'
-      tags: Full-time
-      date: 2018.03 - 2019.03
-      role: Backend Developer
+    - company: Zalora.com
+      link: 'zalora.com'
+      tags: Full-time, remote
+      date: 2023.11 - present
+      role: Senior Software Engineer
       location: Viet Nam
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+        Zalora - an e-commerce company based in Singapore, I work in the OMS team, providing warehouse management solutions, participate design and support in warehouse process
+        + Optimize php profiler using APM server
+        + Technologies: PHP, MySQL, RabbitMQ, Memcached, ...
 
-    - company: First Company
-      link:
-      tags: Part-time, remote
-      date: 2017.03 - 2018.03
-      role: Backend Developer
+    - company: TrueID
+      link: 'trueid.ai'
+      tags: Full-time, onsite
+      date: 2020.01 - 2023.11
+      role: Senior Software Engineer
       location: Viet Nam
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+        TrueID - eKYC solution for Financial System (ACB, Zalopay, Dragon Capital, VinaCapital, etc.), using machine learning technology to verify customers, risk management
+        + Integrate model serving (AI) into backend service, implement face-search, vector-search, text-search engine
+        + Technologies: Go, Spring Boot, Vngcloud, Oracle, PostgresSQL, MariaDB, Milvus, Redis, ...
+    
+    - company: BeGroup JSC
+      link: 'be.com.vn'
+      tags: Full-time, onsite
+      date: 2018.10 - 2020.01
+      role: Software Engineer
+      location: Viet Nam
+      description: |
+        BE App - transportation, mobile payments, loyalty program, food delivery, logistics and lifestyle on-demand services.
+        + Develop features for corporate services and payment services.
+        + Technologies: Go, NodeJS, Google Cloud, Redis, MySQL, ...
+    
+    - company: Zalopay
+      link: 'zalopay.vn'
+      tags: Full-time, onsite
+      date: 2017.01 - 2018.10
+      role: Software Engineer
+      location: Viet Nam
+      description: |
+        ZaloPay Backend Team - build backend for core service of Zalopay, support integrate feature for Merchant
+        + Technologies: Java, Kafka, TiDB, ...
 
 project:
   show: true
   order: 3
   title: Projects
   description: |
-    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. 
+    I have participated in a few projects as a freelancer, collaborator or founding engineer, I have also created a few of my own products as follows 
   items:
-    - name: Personal project
-      link: '#'
-      tags:
-      date: 2015 - 2017
+    - name: BotCK
+      link: 'botck.io.vn'
+      tags: Fullstack, Remote
+      date: 2023 - present
       description: |
-        Personal project description...
-        + First
-        + Second
+        A real-time monitoring system, processing stock data and suggesting buying and selling Vietnamese stocks, including bots in telegram, web and system
+        + Technologies: Go, React, Postgres, Redis, Docker, Kubernetes, ...
 
-    - name: OSS project
-      link:
-      tags: committer
-      date:
+    - name: Kilo
+      link: 'kilo.vn'
+      tags: Fullstack, Remote, US
+      date: 
       description: |
-        OSS project description...
-        + First
-        + Second
+        Kilo is E-commerce platform for small and medium retailers, providing price management, assortment, and inventory management.
+        + Technologies: NodeJS, Golang, Typescript, ReactJS, NestJS, PostgresSQL
+   
+    - name: Coin8
+      link: 'coin8.io'
+      tags: Senior Backend, Remote, Singapore
+      date: 
+      description: |
+        Coin8 - As a payment gateway that allows payments between users and merchants by cryptocurrency.
+        + Technologies: Golang, Gin, Casbin, PostgresSQL, Redis, ...
+    
+    - name: Recommendation System
+      link: ''
+      tags: Backend, Remote, France
+      date: 
+      description: |
+        Recommendation platform, Ads Network, DMP and DSP solutions for entertainment platform, Build model using content-based, knowledge-based and collaborative filtering 
+        + Technologies: Go, python, fasthttp, Google Cloud, k8s, PostgresSQL, Aerospike, ...
+    
+    - name: Dnus
+      link: ''
+      tags: Backend, Remote, Japan
+      date: 
+      description: |
+        Dnus is a Japanese startup company, product is a job seeker application that helps find jobs for local and global markets
+        + Technologies: Golang, Echo, Gorp, Testify, Hubspot, Mailjet, Algolia, ...
+
+    - name: VinHMS
+      link: ''
+      tags: Freelancer, Viet Nam
+      date: 
+      description: |
+        Product is an online platform that connects and provides the solutions for hospitality industry
+        + Technologies: Golang, AWS, ...
+
 
 skill:
   show: true
   order: 4
   title: Skills
   description: |
-    The skills section in a resume is a dedicated section where you can list out the various skills
+    I can work independently and work well as a software engineer, I have knowledge of AI and blockchain, and I can train and manage other software engineers
   groups:
     - name: Programming
       item:
@@ -158,69 +210,78 @@ skill:
         - Oracle
     - name: Other
       item:
-        - Skill 1
-        - Skill 2
+        - Vector Database
+        - Devops
 
 education:
   show: true
   order: 5
   title: Education
   description: |
-    The education section in a resume is where you provide information about your academic background
+    Providing knowledge of computer science such as Principle Programming Languge, Database System, Networking, Operating System, Data Minning, Graphics Computer and Artificial Intelligence
   items:
-    - institution: Example University
-      link: '#'
-      date: 2015 - 2018
-      major: Machine Learning
-      degree: Master
+    - institution: Bach Khoa University
+      link: 'https://www.hcmut.edu.vn/'
+      date: 2013 - 2018
+      major: Computer Science & Engineering
+      degree: Bachelor, Honors class
       description: |
-        Additional information for this institution.
-        + First
-        + Second
+        Thesis: Using machine learning to handle hand gestures, stream video processing for learning system (opencv, ffmpeg, pytorch)
 
 certificate:
   show: false
   order: 6
   title: Certificates
   description: |
-    The certificate section in a resume is a dedicated section where you can showcase any certificates that you have earned.
+    Certificates are a great way to show your skills and expertise.
   items:
-    - name: Example Certificate One
-      issuer: by Example
-      date: 2020
+    - name: TOEIC
+      issuer: ETS
+      date: 2018
       link: '#'
       description: |
-        It's my Example Certificate One by Example.
+        Test of English for International Communication, 4 skills: Listening, Reading, Speaking, Writing, Score: 800
 
 award:
   show: true
   order: 8
   title: Awards
   description: |
-    The award section in a resume is a dedicated section where you can showcase any awards you have received. 
+    Some awards I have received during my career and study.
   items:
-    - name: Example Awared One
-      awarder: by Example
-      date: 2022
+    - name: APEC Certification for Honors Program of computer science & engineering
+      awarder: APEC
+      date: 2018
       link: '#'
       description: |
-        It's my Example Awared One by Example.
+
+    - name: 3rd Prize Hackathon (2017), 2nd prize in Provincial Math Competition (2011, 2012), 3rd prize in Provincial Youth Programming Contest (2011)
+      awarder: 
+      date: 2011 - 2017
+      link: '#'
+      description: |
+
+    - name: Scholarships for students with excellent academic achievements
+      awarder: 
+      date: 2013 - 2018
+      link: '#'
+      description: |
 
 reference:
   show: false
   order: 14
   title: References
   description: |
-    A reference section in a resume is a list of individuals who can vouch for your skills, work ethic, and character. 
+    Some references from my colleagues and managers.
   items:
-    - name: Foo One
+    - name: My Manager
       link: '#'
-      title: Backend Developer
-      institution: Second Company
-      address: 1234 Example St, XXX, XY 11111
-      email: foo.one@example.com
-      phone: 111-222-333
+      title: Engineering Manager
+      institution: TrueID
+      address: Viet Nam
+      email: xxx@gmail.com
+      phone: +84-973-xxxx-41
       description: |
-        Foo One was my colleague in Second Company.
+        
 
 close: <strong>Sorry, my resume has been hidden.</strong>
