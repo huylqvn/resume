@@ -1,6 +1,7 @@
 basic:
   name: Huy Le                     # name
   title: Software Engineer           # job title
+  audio: /assets/audio/resume.mp3    # audio file path
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/profile.jpg # avatar file path

@@ -8,10 +8,12 @@
   <div class="header" {% if basic.avatar.show != true %}style="align-items: center;"{% endif %}>
     {%- if basic.name %}
     <h2 class="name">{{ basic.name }}</h2> 
-<audio controls autoplay>
-  <source src="/assets/audio/resume.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
+    {%- if basic.audio %}
+      <audio controls autoplay>
+        <source src="{{ basic.audio }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    {%- endif %}
     {%- if basic.title %}
     <h3 class="title">{{ basic.title }}</h3>
     {%- endif %}
