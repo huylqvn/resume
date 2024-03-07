@@ -7,7 +7,9 @@
 
   <div class="header" {% if basic.avatar.show != true %}style="align-items: center;"{% endif %}>
     {%- if basic.name %}
-    <h2 class="name">{{ basic.name }}</h2>
+    <h2 class="name">{{ basic.name }}</h2> <audio controls="controls">
+      <source type="audio/mp3" src="/assets/audio/resume.mp3"></source>
+    </audio>
     {%- if basic.title %}
     <h3 class="title">{{ basic.title }}</h3>
     {%- endif %}
