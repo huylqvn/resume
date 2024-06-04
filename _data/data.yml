@@ -29,8 +29,8 @@ contact:
   threema: # userid            | https://threema.id/userid
 
   # programmer
-  github: # username          | https://github.com/username
-  gitlab: # username          | https://gitlab.com/username
+  github: # username          | https://github.com/huylqvn
+  gitlab: # username          | https://gitlab.com/huylqbk
   bitbucket: # username          | https://bitbucket.com/username
   stackoverflow: # id or id/username | https://stackoverflow.com/users/id/username
   leetcode: # username          | https://leetcode.com/username
@@ -84,13 +84,13 @@ profile:
   order: 1
   title: Overview
   description: |
-    I have experience in building <b>large systems</b>, familiar with microservices, CI/CD, cloud platform.
+    I have experience in building <b>large systems</b>, familiar with <b>microservices, CI/CD, cloud platform</b>.
 experience:
   show: true
   order: 2
   title: Experiences
   description: |
-    With more than 7 years' experience software engineer, I have worked with dev team in Vietnam, Singapore, Japan, France, US Company.
+    With more than <b>7 years</b>' experience software engineer, I have worked with dev team in Vietnam, Singapore, Japan, France, US Company.
   items:
     - company: Zalora.com
       link: "zalora.com"
@@ -99,7 +99,7 @@ experience:
       role: Senior Software Engineer
       location: Viet Nam
       description: |
-        Zalora - an e-commerce company based in Singapore, I work in the OMS team, providing warehouse management solutions
+        Zalora - an <b>e-commerce</b> company based in Singapore, I work in the <b>OMS team</b>, providing warehouse management solutions
         + Technologies: PHP, MySQL, RabbitMQ, Memcached, ...
 
     - company: TrueID
@@ -109,7 +109,7 @@ experience:
       role: Senior Software Engineer
       location: Viet Nam
       description: |
-        TrueID - eKYC solution for Financial System (ACB, Zalopay, Dragon Capital, VinaCapital, etc.), using machine learning technology to verify customers, risk management
+        TrueID - <b>eKYC solution</b> for Financial System (ACB, Zalopay, Dragon Capital, VinaCapital, etc.), using machine learning technology to verify customers, risk management
         + Technologies: Go, Spring Boot, Vngcloud, Oracle, PostgresSQL, MariaDB, Milvus, Redis, ...
 
     - company: BeGroup JSC
@@ -129,7 +129,7 @@ experience:
       role: Software Engineer
       location: Viet Nam
       description: |
-        ZaloPay Backend Team - build backend for core service of Zalopay, support integrate feature for Merchant
+        ZaloPay <b>Backend Team</b> - build backend for core service of Zalopay, support integrate feature for Merchant
         + Technologies: Java, Kafka, TiDB, ...
 
 project:
@@ -137,14 +137,14 @@ project:
   order: 3
   title: Projects
   description: |
-    I have participated in a few projects as a freelancer, collaborator or founding engineer, I have also created a few of my own products
+    I have participated in a few projects as a <b>freelancer, collaborator or founding engineer</b>, I have also created a few of my own products
   items:
     - name: BotCK
       link: "botck.io.vn"
       tags: Fullstack, Remote
       date: 2023 - present
       description: |
-        A real-time monitoring system, processing stock data and suggesting buying and selling Vietnamese stocks, including bots in telegram, web and system
+        A real-time monitoring system, processing <b>stock data</b> and suggesting buying and selling Vietnamese stocks, including bots in telegram, web and system
         + Technologies: Go, React, Postgres, Redis, Docker, Kubernetes, ...
 
     - name: Kilo
@@ -152,7 +152,7 @@ project:
       tags: Fullstack, Remote, US
       date:
       description: |
-        Kilo is E-commerce platform for small and medium retailers, providing price management, assortment, and inventory management.
+        Kilo is <b>E-commerce</b> platform for small and medium retailers, providing price management, assortment, and inventory management.
         + Technologies: NodeJS, Golang, Typescript, ReactJS, NestJS, PostgresSQL
 
     - name: Coin8
@@ -160,7 +160,7 @@ project:
       tags: Senior Backend, Remote, Singapore
       date:
       description: |
-        Coin8 - As a payment gateway that allows payments between users and merchants by cryptocurrency.
+        Coin8 - As a <b>payment gateway</b> that allows payments between users and merchants by <b>cryptocurrency</b>.
         + Technologies: Golang, Gin, Casbin, PostgresSQL, Redis, ...
 
     - name: Recommendation System
@@ -168,7 +168,7 @@ project:
       tags: Backend, Remote, France
       date:
       description: |
-        Recommendation platform, Ads Network, DMP and DSP solutions for entertainment platform, Build model using content-based, knowledge-based and collaborative filtering 
+        <b>Recommendation platform, Ads Network, DMP and DSP solutions</b> for entertainment platform, Build model using content-based, knowledge-based and collaborative filtering 
         + Technologies: Go, python, fasthttp, Google Cloud, k8s, PostgresSQL, Aerospike, ...
 
     - name: Dnus
@@ -176,7 +176,7 @@ project:
       tags: Backend, Remote, Japan
       date:
       description: |
-        Dnus is a Japanese startup company, product is a job seeker application that helps find jobs for local and global markets
+        Dnus is a Japanese startup company, product is a <b>job seeker application</b> that helps find jobs for local and global markets
         + Technologies: Golang, Echo, Gorp, Testify, Hubspot, Mailjet, Algolia, ...
 
     - name: VinHMS
@@ -184,7 +184,7 @@ project:
       tags: Freelancer, Viet Nam
       date:
       description: |
-        Product is an online platform that connects and provides the solutions for hospitality industry
+        Product is an online platform that connects and provides the solutions for <b>hospitality platform</b>
         + Technologies: Golang, AWS, ...
 
 skill:
@@ -192,7 +192,7 @@ skill:
   order: 4
   title: Skills
   description: |
-    I can work independently and work well as a software engineer, I have knowledge of AI and blockchain, and I can train and manage other software engineers
+    I can work <b>independently</b> and work well as a software engineer, I have knowledge of <b>System, AI and blockchain</b>, and I can <b>share my knowledge and manage</b> other software engineers
   groups:
     - name: Programming
       item:
@@ -221,7 +221,7 @@ education:
       link: "https://www.hcmut.edu.vn/"
       date: 2013 - 2018
       major: Computer Science & Engineering
-      degree: Bachelor, Honors class
+      degree: Bachelor, <b>Honors class</b>
       description: |
         Thesis: Using machine learning to handle hand gestures, stream video processing for learning system (opencv, ffmpeg, pytorch)
 
