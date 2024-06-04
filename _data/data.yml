@@ -1,90 +1,90 @@
 basic:
-  name: Huy Le                     # name
-  title: Software Engineer           # job title
+  name: Huy Le # name
+  title: Software Engineer # job title
   audio: https://huylqvn.github.io/resume/assets/audio/resume.mp3 # audio file path
   avatar:
-    show: true                       # show or hide avatar
+    show: true # show or hide avatar
     path: /assets/images/profile.jpg # avatar file path
 
 contact:
   # meta
   location: Viet Nam # location
-  email: lequochuy930@gmail.com    # email address
+  email: lequochuy930@gmail.com # email address
   phone: +84-973-xxxx-41 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: huylqvn.com     # site URL without schema, like example.com, will automatically prepand "https://"
+  website: huylqvn.com # site URL without schema, like example.com, will automatically prepand "https://"
 
-  gender:                  # gender or pronoun
-  birthday:                # birthday
-  nationality:             # nationality
-  visa:                    # passport visa
-  drivinglicense:          # driving licence
+  gender: # gender or pronoun
+  birthday: # birthday
+  nationality: # nationality
+  visa: # passport visa
+  drivinglicense: # driving licence
 
   # contact
-  wechat:                  # username
-  whatsapp:                # 8611122223333     | https://wa.me/8611122223333
-  telegram:                # username          | https://t.me/username
-  messenger:               # username          | https://m.me/username
-  line:                    # lineid            | https://line.me/R/ti/p/@lineid
-  viber:                   # username          | https://vb.me/username
-  threema:                 # userid            | https://threema.id/userid
+  wechat: # username
+  whatsapp: # 8611122223333     | https://wa.me/8611122223333
+  telegram: # username          | https://t.me/username
+  messenger: # username          | https://m.me/username
+  line: # lineid            | https://line.me/R/ti/p/@lineid
+  viber: # username          | https://vb.me/username
+  threema: # userid            | https://threema.id/userid
 
   # programmer
-  github:                  # username          | https://github.com/username
-  gitlab:                  # username          | https://gitlab.com/username
-  bitbucket:               # username          | https://bitbucket.com/username
-  stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
-  leetcode:                # username          | https://leetcode.com/username
-  codeforces:              # username          | https://codeforces.com/profile/username
-  codewars:                # username          | https://www.codewars.com/users/username
-  codepen:                 # username          | https://codepen.io/username
-  tryhackme:               # username          | https://tryhackme.com/p/username
+  github: # username          | https://github.com/username
+  gitlab: # username          | https://gitlab.com/username
+  bitbucket: # username          | https://bitbucket.com/username
+  stackoverflow: # id or id/username | https://stackoverflow.com/users/id/username
+  leetcode: # username          | https://leetcode.com/username
+  codeforces: # username          | https://codeforces.com/profile/username
+  codewars: # username          | https://www.codewars.com/users/username
+  codepen: # username          | https://codepen.io/username
+  tryhackme: # username          | https://tryhackme.com/p/username
 
   # academic
-  googlescholar:           # username          | https://scholar.google.com/citations?user=username
-  researchgate:            # username          | https://www.researchgate.net/profile/username
-  kaggle:                  # username          | https://www.kaggle.com/username
-  orcid:                   # id                | https://orcid.org/id
-  figshare:                # name/id           | https://figshare.com/authors/name/id
+  googlescholar: # username          | https://scholar.google.com/citations?user=username
+  researchgate: # username          | https://www.researchgate.net/profile/username
+  kaggle: # username          | https://www.kaggle.com/username
+  orcid: # id                | https://orcid.org/id
+  figshare: # name/id           | https://figshare.com/authors/name/id
 
   # writer
-  devto:                   # username          | https://dev.to/username
-  medium:                  # username          | https://medium.com/@username
-  wordpress:               # username          | https://username.wordpress.com
-  blogger:                 # username          | https://username.blogspot.com
-  wikipedia:               # username          | https://www.wikipedia.org/wiki/User:username
+  devto: # username          | https://dev.to/username
+  medium: # username          | https://medium.com/@username
+  wordpress: # username          | https://username.wordpress.com
+  blogger: # username          | https://username.blogspot.com
+  wikipedia: # username          | https://www.wikipedia.org/wiki/User:username
 
   # designer
-  figma:                   # username          | https://www.figma.com/@username
-  behance:                 # username          | https://www.behance.net/username
-  dribble:                 # username          | https://dribbble.com/username
-  artstation:              # username          | https://www.artstation.com/username
+  figma: # username          | https://www.figma.com/@username
+  behance: # username          | https://www.behance.net/username
+  dribble: # username          | https://dribbble.com/username
+  artstation: # username          | https://www.artstation.com/username
 
   # other cv
-  linkedin:                # username          | https://linkedin.com/in/username
-  indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
-  xing:                    # username          | https://www.xing.com/profile/username
-  fiverr:                  # username          | https://www.fiverr.com/username
-  freelancer:              # username          | https://www.freelancer.com/u/username
+  linkedin: # username          | https://linkedin.com/in/username
+  indeed: # resumeid          | https://my.indeed.com/p/resumeid
+  xing: # username          | https://www.xing.com/profile/username
+  fiverr: # username          | https://www.fiverr.com/username
+  freelancer: # username          | https://www.freelancer.com/u/username
 
   # social media
-  twitter:                 # username          | https://twitter.com/username
-  mastodon:                # username@server
-  instagram:               # username          | https://instagram.com/username
-  unsplash:                # username          | https://unsplash.com/@username
-  _500px:                  # username          | https://500px.com/p/username
-  youtube:                 # username          | https://www.youtube.com/@username
-  tiktok:                  # username          | https://www.tiktok.com/@username
-  quora:                   # username          | https://www.quora.com/profile/username
-  zhihu:                   # username          | https://www.zhihu.com/people/username
-  goodreads:               # username          | https://www.goodreads.com/user/show/username
-  strava:                  # useid             | https://www.strava.com/athletes/userid
+  twitter: # username          | https://twitter.com/username
+  mastodon: # username@server
+  instagram: # username          | https://instagram.com/username
+  unsplash: # username          | https://unsplash.com/@username
+  _500px: # username          | https://500px.com/p/username
+  youtube: # username          | https://www.youtube.com/@username
+  tiktok: # username          | https://www.tiktok.com/@username
+  quora: # username          | https://www.quora.com/profile/username
+  zhihu: # username          | https://www.zhihu.com/people/username
+  goodreads: # username          | https://www.goodreads.com/user/show/username
+  strava: # useid             | https://www.strava.com/athletes/userid
 
 profile:
   show: true
   order: 1
   title: Overview
-  description: | 
-    I have experience in building large systems, familiar with microservices, CI/CD, cloud platform. 
+  description: |
+    I have experience in building <b>large systems</b>, familiar with microservices, CI/CD, cloud platform.
 experience:
   show: true
   order: 2
@@ -93,7 +93,7 @@ experience:
     With more than 7 years' experience software engineer, I have worked with dev team in Vietnam, Singapore, Japan, France, US Company.
   items:
     - company: Zalora.com
-      link: 'zalora.com'
+      link: "zalora.com"
       tags: Full-time, remote
       date: 2023.11 - present
       role: Senior Software Engineer
@@ -103,7 +103,7 @@ experience:
         + Technologies: PHP, MySQL, RabbitMQ, Memcached, ...
 
     - company: TrueID
-      link: 'trueid.ai'
+      link: "trueid.ai"
       tags: Full-time, onsite
       date: 2020.01 - 2023.11
       role: Senior Software Engineer
@@ -111,9 +111,9 @@ experience:
       description: |
         TrueID - eKYC solution for Financial System (ACB, Zalopay, Dragon Capital, VinaCapital, etc.), using machine learning technology to verify customers, risk management
         + Technologies: Go, Spring Boot, Vngcloud, Oracle, PostgresSQL, MariaDB, Milvus, Redis, ...
-    
+
     - company: BeGroup JSC
-      link: 'be.com.vn'
+      link: "be.com.vn"
       tags: Full-time, onsite
       date: 2018.10 - 2020.01
       role: Software Engineer
@@ -121,9 +121,9 @@ experience:
       description: |
         BE App - transportation, mobile payments, loyalty program, food delivery, logistics and lifestyle on-demand services.
         + Technologies: Go, NodeJS, Google Cloud, Redis, MySQL, ...
-    
+
     - company: Zalopay
-      link: 'zalopay.vn'
+      link: "zalopay.vn"
       tags: Full-time, onsite
       date: 2017.01 - 2018.10
       role: Software Engineer
@@ -140,7 +140,7 @@ project:
     I have participated in a few projects as a freelancer, collaborator or founding engineer, I have also created a few of my own products
   items:
     - name: BotCK
-      link: 'botck.io.vn'
+      link: "botck.io.vn"
       tags: Fullstack, Remote
       date: 2023 - present
       description: |
@@ -148,45 +148,44 @@ project:
         + Technologies: Go, React, Postgres, Redis, Docker, Kubernetes, ...
 
     - name: Kilo
-      link: 'kilo.vn'
+      link: "kilo.vn"
       tags: Fullstack, Remote, US
-      date: 
+      date:
       description: |
         Kilo is E-commerce platform for small and medium retailers, providing price management, assortment, and inventory management.
         + Technologies: NodeJS, Golang, Typescript, ReactJS, NestJS, PostgresSQL
-   
+
     - name: Coin8
-      link: 'coin8.io'
+      link: "coin8.io"
       tags: Senior Backend, Remote, Singapore
-      date: 
+      date:
       description: |
         Coin8 - As a payment gateway that allows payments between users and merchants by cryptocurrency.
         + Technologies: Golang, Gin, Casbin, PostgresSQL, Redis, ...
-    
+
     - name: Recommendation System
-      link: ''
+      link: ""
       tags: Backend, Remote, France
-      date: 
+      date:
       description: |
         Recommendation platform, Ads Network, DMP and DSP solutions for entertainment platform, Build model using content-based, knowledge-based and collaborative filtering 
         + Technologies: Go, python, fasthttp, Google Cloud, k8s, PostgresSQL, Aerospike, ...
-    
+
     - name: Dnus
-      link: ''
+      link: ""
       tags: Backend, Remote, Japan
-      date: 
+      date:
       description: |
         Dnus is a Japanese startup company, product is a job seeker application that helps find jobs for local and global markets
         + Technologies: Golang, Echo, Gorp, Testify, Hubspot, Mailjet, Algolia, ...
 
     - name: VinHMS
-      link: ''
+      link: ""
       tags: Freelancer, Viet Nam
-      date: 
+      date:
       description: |
         Product is an online platform that connects and provides the solutions for hospitality industry
         + Technologies: Golang, AWS, ...
-
 
 skill:
   show: true
@@ -219,7 +218,7 @@ education:
     Providing knowledge of computer science such as Principle Programming Languge, Database System, Networking, Operating System, Data Minning, Graphics Computer and Artificial Intelligence
   items:
     - institution: Bach Khoa University
-      link: 'https://www.hcmut.edu.vn/'
+      link: "https://www.hcmut.edu.vn/"
       date: 2013 - 2018
       major: Computer Science & Engineering
       degree: Bachelor, Honors class
@@ -236,7 +235,7 @@ certificate:
     - name: TOEIC
       issuer: ETS
       date: 2018
-      link: '#'
+      link: "#"
       description: |
         Test of English for International Communication, 4 skills: Listening, Reading, Speaking, Writing, Score: 800
 
@@ -250,21 +249,21 @@ award:
     - name: APEC Certificates
       awarder: APEC
       date: 2018
-      link: '#'
+      link: "#"
       description: |
         APEC Certification for Honors Program of computer science & engineering
 
     - name: Competition
       awarder:
       date: 2011 - 2017
-      link: '#'
+      link: "#"
       description: |
         3rd Prize Hackathon (2017), 2nd prize in Provincial Math Competition (2011, 2012), 3rd prize in Provincial Youth Programming Contest (2011)
 
-    - name: Scholarships 
-      awarder: 
+    - name: Scholarships
+      awarder:
       date: 2013 - 2018
-      link: '#'
+      link: "#"
       description: |
         Scholarships for students with excellent academic achievements
 
@@ -276,13 +275,12 @@ reference:
     Some references from my colleagues and managers.
   items:
     - name: My Manager
-      link: '#'
+      link: "#"
       title: Engineering Manager
       institution: TrueID
       address: Viet Nam
       email: xxx@gmail.com
       phone: +84-973-xxxx-41
       description: |
-        
 
 close: <strong>Sorry, my resume has been hidden.</strong>
