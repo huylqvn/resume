@@ -215,13 +215,13 @@ education:
   order: 5
   title: Education
   description: |
-    Providing knowledge of computer science such as Principle Programming Languge, Database System, Networking, Operating System, Data Minning, Graphics Computer and Artificial Intelligence
+    Computer science with Principle Programming Languge, Database System, Networking, Operating System, Data Minning, Graphics Computer and Artificial Intelligence
   items:
     - institution: Bach Khoa University
       link: "https://www.hcmut.edu.vn/"
       date: 2013 - 2018
       major: Computer Science & Engineering
-      degree: Bachelor, <b>Honors class</b>
+      degree: Bachelor, <b>Honors class</b>, Major GPA <b>3.2/4</b>
       description: |
         Thesis: Using machine learning to handle hand gestures, stream video processing for learning system (opencv, ffmpeg, pytorch)
 
