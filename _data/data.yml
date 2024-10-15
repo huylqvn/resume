@@ -92,20 +92,20 @@ experience:
   description: |
     With more than <b>7 years</b>' experience software engineer, I have worked with dev team in Vietnam, Singapore, Japan, France, US Company.
   items:
-    - company: Zalora.com
-      link: "zalora.com"
-      tags: Full-time, remote
-      date: 2023.11 - present
-      role: Senior Software Engineer
-      location: Viet Nam
-      description: |
-        Zalora - an <b>e-commerce</b> company based in Singapore, I work in the <b>OMS team</b>, providing warehouse management solutions
-        + Technologies: PHP, MySQL, RabbitMQ, Memcached, ...
+    # - company: Zalora.com
+    #   link: "zalora.com"
+    #   tags: Full-time, remote
+    #   date: 2023.11 - present
+    #   role: Senior Software Engineer
+    #   location: Viet Nam
+    #   description: |
+    #     Zalora - an <b>e-commerce</b> company based in Singapore, I work in the <b>OMS team</b>, providing warehouse management solutions
+    #     + Technologies: PHP, MySQL, RabbitMQ, Memcached, ...
 
     - company: TrueID
       link: "trueid.ai"
       tags: Full-time, onsite
-      date: 2020.01 - 2023.11
+      date: 2020.01 - 2024.04
       role: Senior Software Engineer
       location: Viet Nam
       description: |
